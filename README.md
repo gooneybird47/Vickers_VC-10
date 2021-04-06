@@ -3,7 +3,7 @@
 
 *This is still WIP but should work.*
 
-![VC-10 1](screenshots/VC-10 1.jpg)
+![VC-10-1](screenshots/VC-10-1.jpg)
 
 
 Download the zip file and extract the "vc-10" folder into the "$FG_ROOT/AI/Aircraft" folder.
