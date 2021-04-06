@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+    <description>Vickers VC-10</description>
+    <author>Brett Harrison</author>
+    <path>Models/vc-10.ac</path>
+	
+	<offsets>
+        <pitch-deg>-1.46</pitch-deg>
+    </offsets>
+     
+   
+      <animation>
+		<type>select</type>
+		<object-name>gear</object-name>
+		<condition>
+			<less-than>
+				<property>velocities/true-airspeed-kt</property>
+				<value>160</value>
+			</less-than>
+		</condition>
+	</animation>
+    
+	  <animation>
+        <type>rotate</type>
+        <property>velocities/true-airspeed-kt</property>
+        <interpolation>
+            <entry>
+                <ind>0.0</ind>
+                <dep>0.0</dep>
+            </entry>
+
+            <entry>
+                <ind>70</ind>
+                <dep>0.0</dep>
+            </entry>
+
+            <entry>
+                <ind> 85</ind>
+                <dep>1.46</dep>
+            </entry>
+
+        </interpolation>
+        <center>
+            <x-m>0.0</x-m>
+            <y-m>0.0</y-m>
+            <z-m>0.0</z-m>
+        </center>
+        <axis>
+            <x>0.0</x>
+            <y>1.0</y>
+            <z>0.0</z>
+        </axis>
+    </animation>
+
+    <!-- ALS Navigation Lights Objects -->
+    <model>
+        <path>Lights/vc-10-NavLights.xml</path>
+    </model>
+
+</PropertyList>
