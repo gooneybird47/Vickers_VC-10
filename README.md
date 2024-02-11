@@ -7,7 +7,7 @@
 ![BUA](screenshots/BUA.jpg)
 ![eastafrican](screenshots/eastafrican.jpg)
 ![NGA](screenshots/NGA.jpg)
-
+![malawi](screenshots/malawi.jpg)
 
 Download the zip file and extract the "vc-10" folder into the "$FG_ROOT/AI/Aircraft" folder.
 
