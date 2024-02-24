@@ -80,18 +80,18 @@
         <name>left-taxi</name>
         <path>AI/Lights/procedural_light_nav_tail.xml</path>
         <offsets>
-            <x-m>-24.4326</x-m>
-            <y-m>-0.974995</y-m>
-            <z-m>3.44924</z-m>
+            <x-m>-23.9685</x-m>
+            <y-m>-1.12774</y-m>
+            <z-m>3.26899</z-m>
         </offsets>
     </model>
     <model>
         <name>right-taxi</name>
         <path>AI/Lights/procedural_light_nav_tail.xml</path>
         <offsets>
-            <x-m>-24.4326</x-m>
-            <y-m>0.974995</y-m>
-            <z-m>3.44924</z-m>
+            <x-m>-23.9685</x-m>
+            <y-m>1.12774</y-m>
+            <z-m>3.26899</z-m>
         </offsets>
     </model>
     <animation>
